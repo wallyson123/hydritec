@@ -1,4 +1,5 @@
 *{
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -7,21 +8,25 @@ h1{
 }
 
 .bigbox{
-    position: absolute;
     top: 50%;
     left: 50%;
+    position: absolute;
     width: 70%;
     padding: 50px;
     transform: translate(-50%, -50%);
-    background: #00ccff;
+    background: #23a6c6;
     box-shadow: 10px 10px 100px 10px rgba(0, 169, 247);
     border-top-right-radius: 150px;
 }
 
 .id-box{
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 80px;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    border-radius: 70px;
+    height: 140px;
+   width: 600px;
+   transform: translate(200px , -10%);
 }
 
 input{
@@ -29,9 +34,12 @@ input{
     padding: 10px;
     margin-bottom: 15px;
     margin-top: 10px;
-    width: 400px;
+    width: 300px;
     background-color:rgb(133, 216, 255);
     border: 0 none;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
@@ -56,4 +64,14 @@ a{
 
 p :hover{
     color: midnightblue;
+}
+
+.logo {
+padding-left: 1150px;
+}
+
+.gota01{
+    padding-right: 600px;
+    display: flex;
+    z-index: 9999;
 }
