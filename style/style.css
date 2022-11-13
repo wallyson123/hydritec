@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: rgb(230, 70, 70);
+    border: 3px solid rgb(207, 47, 47);
+    padding: 2rem 4rem;
+}
+.gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #cff5e7 , #a0e4cb , #59c1bd, #0d4c92);
+    background-size: 200% 200%;
+    border-top-right-radius: 500px;
+    box-shadow: 10px 10px 100px 10px rgb(245, 247, 248);
+    animation: colors 5s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.logotransparente{
+    display: flex;
+    width: 50px;
+    height: 500px;
+    position: fixed;
+    padding-right: 90%;
+}
+
+.logoprincipal{
+    display: flex;
+    padding-left: 80%;
+    margin-bottom: 40%;
+}
+
+.bigbox{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    padding-right: 0%;
+    text-transform: uppercase;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.id-box{
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50% , -50%);
+}
+input{
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 300px;
+    background-color:rgb(133, 216, 255);
+    border: 0 none;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(20, 105, 129, 0.795);
+    border: solid rgba(99, 99, 229, 0.795);
+    color: rgb(230, 170, 170);
+    border-radius: 15px;
+    margin: 0;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    margin-bottom: 50%;
+    margin-right: -50%;
+    transform: translate(-50% , -50%);
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 70%;
+    left: 10%;
+    margin-bottom: 50%;
+    margin-right: -50%;
+    transform: translate(500% , 50%);
+}
+
+a{
+    text-decoration:none ;
+    color: #fff;
+}
+
+p :hover{
+    color: midnightblue;
+}
